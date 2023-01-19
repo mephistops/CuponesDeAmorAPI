@@ -6,7 +6,7 @@ class CouponsBase(BaseModel):
     description: str
     iconOne: str
     iconTwo: str
-
+    used: bool
 
 class CouponsCreate(CouponsBase):
     pass

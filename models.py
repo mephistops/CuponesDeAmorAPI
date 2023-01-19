@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Boolean
 
 from database import Base
 
@@ -11,3 +11,4 @@ class Coupons(Base):
     description = Column(String)
     iconOne = Column(String)
     iconTwo = Column(String)
+    used = Column(Boolean)
